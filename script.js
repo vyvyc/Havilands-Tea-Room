@@ -116,7 +116,7 @@ if (reduceMotion || !gsapAvailable) {
     }
 
     if (target.matches(".menu-board")) {
-      return Array.from(target.querySelectorAll(".menu-feature, .menu-list article"));
+      return Array.from(target.querySelectorAll(".menu-feature, .menu-list li"));
     }
 
     if (target.matches(".image-ledger")) {
