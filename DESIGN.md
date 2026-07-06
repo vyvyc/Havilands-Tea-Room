@@ -27,10 +27,12 @@ The page should feel like a British tea room rather than a generic cafe. The mai
 
 ## Motion
 
-GSAP is used only for hierarchy and feedback:
+GSAP is used for hierarchy, scroll rhythm, and restrained hospitality polish:
 
-- Hero image and text enter as one coordinated scene.
-- Sections reveal once through IntersectionObserver.
+- Hero image, header, headline, copy, buttons, and bottom strip enter as one coordinated scene.
+- Later sections reveal once through IntersectionObserver using content-specific timelines.
+- Image-led panels use clip-path opening, subtle push-in, and blur-to-sharp treatment.
+- Text, menu items, gallery tiles, visit details, and hours rows enter in small staggered groups.
 - Buttons receive subtle pointer feedback on fine-pointer devices.
 - Cards lift gently on hover.
 - `prefers-reduced-motion` reveals all content immediately and disables motion.
